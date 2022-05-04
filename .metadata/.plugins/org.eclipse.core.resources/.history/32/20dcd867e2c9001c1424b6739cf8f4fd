@@ -1,0 +1,29 @@
+package com.callor.school.exec;
+
+public class ExecV2 {
+	
+	
+	public static void main(String[] args) {
+		
+		int[] intKor = new int[5];
+		int[] intEng = new int[5];
+		int[] intMath = new int[5];
+		
+		int[] intSum = new int[5];
+		
+		for(int i = 0 ; i < intKor.length ; i++) {
+			int iKor = (int)(Math.random() * 100) + 1;
+			int iEng = (int)(Math.random() * 100) + 1;
+			int iMath = (int)(Math.random() * 100) + 1;
+			
+			int iSum = iKor + iEng + iMath;
+			intKor[i] = iKor;
+			intEng[i] = iEng;
+			intMath[i] = iMath;
+			
+			intSum[i] = iSum;
+		}
+		
+	}
+
+}

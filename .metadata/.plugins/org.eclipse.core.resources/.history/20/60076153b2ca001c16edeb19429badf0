@@ -1,0 +1,12 @@
+package com.callor.school.model;
+
+public class StudentVO {
+	
+	private String st_num;
+	private String st_name;
+	private String st_tel;
+	private String st_addr;
+	private String st_dept;
+	private String st_grade;
+
+}

@@ -1,0 +1,9 @@
+package com.callor.school.dbconfig;
+
+import java.sql.Connection;
+
+public class DBConnection {
+	
+	private Connection conn;
+
+}

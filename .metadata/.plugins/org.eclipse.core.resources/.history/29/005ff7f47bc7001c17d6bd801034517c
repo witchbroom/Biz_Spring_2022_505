@@ -1,0 +1,32 @@
+package com.callor.school.dbconfig;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBConnection {
+
+	private static Connection conn = null;
+	/*
+	 * static 초기화 블럭 static으로 선언된 변수를 초기화하는 코드를 작성하는 영역
+	 */
+	static {
+
+		// Oracle DBMS와 통신할 때 도와줄 클래스, 애플리케이션
+		String jdbcDriver = "oracle.jdbc.OracleDriver";
+		String dbURL = "jdbc:oracle:thin:@localhost:1521:xe";
+		String username = "user2";
+		String password = "12341234";
+		try {
+			Class.forName(jdbcDriver);
+			conn = DriverManager.getConnection(dbURL, username, password);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			System.out.println(jdbcDriver + " 가 없습니다");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			System.out.println("DBMS 연결 문제 발생~~");
+		}
+	}
+
+}
