@@ -1,4 +1,4 @@
-# Sprng Mybatis Project
+# Spring Mybatis Project
 * Spring MVC Project 와 Oracle, MySQL 등 DBMS와 연동하는 Project
 
 ## Dependency 설정
