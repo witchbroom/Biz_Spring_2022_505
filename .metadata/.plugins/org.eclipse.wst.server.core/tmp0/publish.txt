@@ -1,5 +1,5 @@
 #Tomcat publish data
-#Wed May 04 14:56:47 KST 2022
+#Wed May 04 15:14:50 KST 2022
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\KS50512\\.m2\\repository\\org\\springframework\\spring-web\\5.2.21.RELEASE\\spring-web-5.2.21.RELEASE.jar=WEB-INF/lib/spring-web-5.2.21.RELEASE.jar
 org.eclipse.jst.jee.server\:/binary\:C\:\\jdk_3rd\\repo\\org\\springframework\\spring-web\\5.2.21.RELEASE\\spring-web-5.2.21.RELEASE.jar=WEB-INF/lib/spring-web-5.2.21.RELEASE.jar
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\KS50512\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-jasper\\10.0.20\\tomcat-embed-jasper-10.0.20.jar=WEB-INF/lib/tomcat-embed-jasper-10.0.20.jar
