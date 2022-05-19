@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<c:set var="rootPath" value="${pageContext.request.contextPath}" />
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<c:set value="${pageContext.request.contextPath}" var="rootPath" />
 
 <!DOCTYPE html>
 <html>
@@ -14,12 +14,17 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-body {
+
+html, body {
 	width: 100vw;
 	height: 100vh;
+}
+
+body {
 	display: flex;
 	flex-direction: column;
 }
+
 header {
 	/* important 어떤 tag 속성보다 우선적으로 강제 적용 */
 	background-color: green !important;
@@ -34,6 +39,7 @@ header {
 	text-shadow: 1px 1px 1px black;
 	color: white;
 }
+
 /*
 		a tag 의 color 속성은
 		부모 tag 의 color 속성을 상속받지 않는다
@@ -43,65 +49,84 @@ header {
 header a {
 	color: inherit;
 }
+
 nav {
 	background-color: blue;
 	color: white;
 }
+
 nav ul {
 	list-style: none;
 	display: flex;
 }
+
 nav li {
 	padding: 12px 16px;
 }
+
 nav li:hover {
 	cursor: pointer;
 	color: yellow;
 	font-weight: 900;
 }
+
 nav li:nth-of-type(4) {
 	margin-left: auto;
 }
+
 section.main {
 	flex: 1;
 	padding: 5px;
 	display: flex;
 }
+
 section.main article {
-	flex: 1;
-	margin: 0 5px;
+	flex: 1; margin : 0 5px;
 	border: 1px solid blue;
+	margin: 0 5px;
 }
+
 footer {
 	background-color: blue;
 	color: white;
 	text-align: center;
 	padding: 0.9rem;
 }
+
 button {
 	border: none;
 	outline: none;
 	padding: 12px 16px;
 	border-radius: 5px;
 }
+
 button:hover {
-	box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
+
 button.btn-blue {
 	background-color: blue;
 	color: white;
 }
+
 button.btn-green {
 	background-color: green;
 	color: white;
 }
+
 button.btn-red {
 	background-color: red;
 	color: white;
 }
+
 button.btn-orange {
 	background-color: orange;
 	color: white;
+}
+
+article.st-list {
+	overflow: hidden;
+	max-height: 65vh;
 }
 </style>
 <script>
@@ -109,7 +134,7 @@ button.btn-orange {
 	// JS 변수로 선언
 	const rootPath = "${rootPath}"
 </script>
-<script src="${rootPath}/static/nav.js?ver=2022-05-09-002"></script>
+<script src="${rootPath}/static/js/nav.js?ver=2022-05-10-001"></script>
 </head>
 <body>
 	<header>
@@ -145,7 +170,9 @@ button.btn-orange {
 				</article>
 			</c:when>
 			<c:otherwise>
-				<article></article>
+				<article class="st-list">
+					<%@ include file="/WEB-INF/views/student/list.jsp"%>
+				</article>
 				<article></article>
 				<article></article>
 			</c:otherwise>

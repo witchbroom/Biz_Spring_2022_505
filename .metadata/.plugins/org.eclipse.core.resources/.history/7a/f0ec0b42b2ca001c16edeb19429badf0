@@ -1,5 +1,0 @@
-package com.callor.school.model;
-
-public interface StudentVO {
-
-}
