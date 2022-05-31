@@ -1,2 +1,4 @@
+commentBorder=\#0080ff | null | false | false | false | false
+commentText=\#0080ff | \#ffffff | false | false | false | false
 eclipse.preferences.version=1
 newFileTemplateName=New HTML File (5)
