@@ -43,6 +43,6 @@
 		Dao interface 가 저장된 package 를 scan 하여 
 		SqlSessionFactory 에게 알려주는 역할 수행
 	 -->
-	<mybatis-spring:scan base-package="com.callor.school.pesistance"/>
+	<mybatis-spring:scan base-package="com.callor.school.persistance"/>
 
 </beans>

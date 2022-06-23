@@ -108,6 +108,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\KS50512\Documents\workspace\spring\schoolverse4"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\schoolverse-master"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\schoolverse2"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\schoolverse"/>
 			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_004_NaverV2"/>
 			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_003_SchoolV7"/>
 			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_003_SchoolV6"/>
@@ -120,5 +124,27 @@
 		<item key="DIALOG_WIDTH" value="500"/>
 		<item key="DIALOG_HEIGHT" value="389"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_007_EMS"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_003_SchoolV6"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_005_GalleryV1"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\schoolverse6"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\schoolverse5"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\schoolverse4"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\schoolverse3"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\schoolverse-master"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>

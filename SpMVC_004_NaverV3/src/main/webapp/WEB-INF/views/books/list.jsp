@@ -57,8 +57,9 @@ box-shadow:2px 2px 2px rgba(0,0,0,0.7);
 			<tr>
 				<th>NO</th>
 				<th>ISBN</th>
-				<th>저자</th>
+				<th>도서명</th>
 				<th>출판사</th>
+				<th>저자</th>
 				<th>출판일</th>
 			</tr>
 		</thead>
