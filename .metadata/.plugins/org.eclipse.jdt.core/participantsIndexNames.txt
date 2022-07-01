@@ -27,6 +27,8 @@ C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.j
 \SpMVC_004_NaverV4\src\main\java
 C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\629041103.index
 \SpMVC_005_GalleryV1\src\main\java
+C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2394259926.index
+\SpMVC_008_MemoV2\src\main\java
 C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\180798363.index
 \SpMVC_003_SchoolV6\src\main\java
 C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2173994615.index
@@ -159,6 +161,8 @@ C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.j
 \SpMVC_003_SchoolV2\src\main\java
 C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2406706854.index
 \SpMVC_003_SchoolV7\src\main\java
+C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2130698744.index
+\SpMVC_008_MemoV2\src\main\java
 C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3952339838.index
 \SpMVC_003_SchoolV2\src\main\java
 C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\894608706.index
@@ -167,6 +171,8 @@ C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.j
 \SpMVC_004_NaverV4\src\main\java
 C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3748957539.index
 \schoolverse4\src\main\java
+C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2825701301.index
+\SpMVC_008_MemoV2\src\main\java
 C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2618216360.index
 \SpMVC_007_EMS2\src\main\java
 C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\66037413.index

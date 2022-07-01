@@ -132,6 +132,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_008_MemoV2"/>
 			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_007_EMS"/>
 			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_003_SchoolV6"/>
 			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_005_GalleryV1"/>
