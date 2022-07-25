@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="SpMVC_004_NaverV3"/>
-<aop-project name="SpMVC_008_MemoV2"/>
+<aop-project name="SpMVC_030_Score"/>
 </aop-reference-model>
