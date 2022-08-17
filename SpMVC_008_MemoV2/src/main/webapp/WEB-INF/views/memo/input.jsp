@@ -39,7 +39,7 @@ form {
 input {
 	padding: 1rem;
 	width: 100%;
-	position:relative;
+	position: relative;
 }
 
 .box {
@@ -51,43 +51,38 @@ input {
 	top: 150px;
 	left: 500px;
 	color: white;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	text-align:center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
-button{
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-    margin: 0;
-  padding: 0.5rem 1rem;
-
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  text-align: center;
-  text-decoration: none;
-
-  display: inline-block;
-  width: auto;
-
-  border: none;
-  border-radius: 4px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-
-  cursor: pointer;
-
-  transition: 0.5s;
-  background-color:white;
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0;
+	padding: 0.5rem 1rem;
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: auto;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px
+		rgba(0, 0, 0, 0.06);
+	cursor: pointer;
+	transition: 0.5s;
+	background-color: white;
 }
+
 button:focus {
-  background: var(--button-hover-bg-color);
-  outline: 0;
+	background: var(- -button-hover-bg-color);
+	outline: 0;
 }
-
-
 </style>
 <!-- keep the line below for OpenProcessing compatibility -->
 <script src="https://openprocessing.org/openprocessing_sketch.js"></script>

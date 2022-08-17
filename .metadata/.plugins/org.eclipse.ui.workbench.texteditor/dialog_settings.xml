@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="search"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="asset"/>
+			<item value="&lt;/p&gt;"/>
+			<item value="&lt;p&gt;"/>
+			<item value="p"/>
+			<item value="td"/>
+			<item value="AuthorVO"/>
+			<item value="인증"/>
+			<item value="author"/>
 			<item value="a_name"/>
 			<item value=" "/>
 			<item value="modal"/>
@@ -15,14 +23,13 @@
 			<item value="security"/>
 			<item value="jdbc"/>
 			<item value=" name=&quot;level-box&quot;"/>
-			<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;"/>
-			<item value="CREATE TABLE"/>
-			<item value="CREATE"/>
-			<item value="param"/>
-			<item value="jasper"/>
-			<item value="path"/>
 		</list>
 		<list key="replacehistory">
+			<item value="&lt;/td&gt;"/>
+			<item value="&lt;td&gt;"/>
+			<item value="td"/>
+			<item value="p"/>
+			<item value="AuthorityVO"/>
 			<item value="search"/>
 			<item value="#modal"/>
 		</list>
@@ -39,6 +46,13 @@
 		<item key="DIALOG_Y_ORIGIN" value="8"/>
 		<item key="DIALOG_WIDTH" value="612"/>
 		<item key="DIALOG_HEIGHT" value="436"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.wst.html.ui.internal.preferences.ui.HTMLTemplatePreferencePage$HTMLEditTemplateDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="38"/>
+		<item key="DIALOG_Y_ORIGIN" value="106"/>
+		<item key="DIALOG_WIDTH" value="612"/>
+		<item key="DIALOG_HEIGHT" value="406"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

@@ -132,6 +132,12 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\KS50512\Documents\workspace\spring\Spring_CRUD-master"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_2022_250_TodoListV5"/>
+			<item value="C:\Users\KS50512\Documents\workspace\server-project\Biz_Server_2022_08_505_v2"/>
+			<item value="C:\Users\KS50512\Documents\workspace\server-project\Biz_2022_08_Server"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\Biz_2022_08_Server"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_030_ScoreV2"/>
 			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_020_Address2"/>
 			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_008_MemoV2"/>
 			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_007_EMS"/>
@@ -159,5 +165,8 @@
 			<item value="org.eclipse.wst.web.ui"/>
 			<item value="org.eclipse.ui.Examples"/>
 		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item key="OUTSIDE_LOCATION" value="C:\Users\KS50512\Documents\workspace\spring"/>
 	</section>
 </section>
