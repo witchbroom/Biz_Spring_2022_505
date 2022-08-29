@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="SpMVC_2022_250_TodoListV5">
-<aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="26" aspect-name="org.springframework.transaction.interceptor.TransactionInterceptor#SpMVC_2022_250_TodoListV5#src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml#26" aspect-start-line-number="26" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/SpMVC_2022_250_TodoListV5/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" pointcut-expression="(@within(org.springframework.transaction.annotation.Transactional) || @annotation(org.springframework.transaction.annotation.Transactional)) &amp;&amp; execution(* *..*(..))" proxy-target-class="false">
-<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpMVC_2022_250_TodoListV5|3:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml|7:beans:beans:10|8:userServiceV1:10" bean-file="/SpMVC_2022_250_TodoListV5/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpMVC_2022_250_TodoListV5/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" source="=Spring_CRUD-master/C:\/jdk_3rd\/repo\/org\/springframework\/spring-tx\/5.2.22.RELEASE\/spring-tx-5.2.22.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=SpMVC_2022_250_TodoListV5/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.callor.todo.service.impl{UserServiceImplV1.java[UserServiceImplV1~insert~QUserVO;" target-start-line="70"/>
-</aspect-definition>
-</aop-project>
-<aop-project name="SpMVC_008_MemoV2"/>
 <aop-project name="SoloProject_EmrV1"/>
 </aop-reference-model>

@@ -132,6 +132,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\KS50512\Documents\workspace\clone\Biz_Spring_2022_04_505_v2\SpMVC_2022_260_Food"/>
+			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_050_Food"/>
 			<item value="C:\Users\KS50512\Documents\workspace\spring\Spring_CRUD-master"/>
 			<item value="C:\Users\KS50512\Documents\workspace\spring\SpMVC_2022_250_TodoListV5"/>
 			<item value="C:\Users\KS50512\Documents\workspace\server-project\Biz_Server_2022_08_505_v2"/>

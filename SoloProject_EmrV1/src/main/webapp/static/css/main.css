@@ -71,6 +71,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+form input{
+	color:black !important; 
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -114,8 +118,16 @@ input, select, textarea {
 
 /* Type */
 
-	body, input, select, textarea {
+	body, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16.5pt;
+		font-weight: normal;
+		line-height: 1.75;
+	}
+	
+	input{
+		color: rgba(0,0,0,0.7);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -2463,8 +2475,9 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(166, 166, 166, 0.7) !important;
 		opacity: 1.0;
+		text-align: center;
 	}
 
 	:-moz-placeholder {

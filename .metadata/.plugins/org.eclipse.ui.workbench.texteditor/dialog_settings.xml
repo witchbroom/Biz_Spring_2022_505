@@ -8,6 +8,13 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="bind"/>
+			<item value="jdom"/>
+			<item value="jdon"/>
+			<item value="`"/>
+			<item value="input"/>
+			<item value="placeholder"/>
+			<item value="col-6"/>
 			<item value="asset"/>
 			<item value="&lt;/p&gt;"/>
 			<item value="&lt;p&gt;"/>
@@ -16,13 +23,6 @@
 			<item value="AuthorVO"/>
 			<item value="인증"/>
 			<item value="author"/>
-			<item value="a_name"/>
-			<item value=" "/>
-			<item value="modal"/>
-			<item value=".mbox"/>
-			<item value="security"/>
-			<item value="jdbc"/>
-			<item value=" name=&quot;level-box&quot;"/>
 		</list>
 		<list key="replacehistory">
 			<item value="&lt;/td&gt;"/>
