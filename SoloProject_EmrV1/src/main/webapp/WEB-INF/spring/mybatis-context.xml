@@ -32,6 +32,11 @@
 		</property>
 	</bean>
 
+	<tx:jta-transaction-manager/>
+	<!-- transactionManager는 다른 곳에서 참조되기 때문에 ID 를 절대 바꿀 수 없다  -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="ds"/>
+	</bean>
 
 	<bean class="org.mybatis.spring.SqlSessionTemplate">
 		<constructor-arg ref="sqlSession" />

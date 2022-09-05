@@ -48,10 +48,10 @@
 						<th>성별 : ${PATI.sex}</th>
 					</tr>
 					<tr>
-						<th>질병코드 : ${PATI.dcode}</th>
+						<th>질병코드 : ${PATI.code}</th>
 					</tr>
 					<tr>
-						<th>기록지 : ${PATI.dis}</th>
+						<th>기록지 : ${PATI.disease}</th>
 					</tr>
 					<tr>
 						<th>특이사항 : ${PATI.karte}</th>

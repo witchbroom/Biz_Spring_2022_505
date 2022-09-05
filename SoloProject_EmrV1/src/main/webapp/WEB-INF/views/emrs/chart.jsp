@@ -14,6 +14,36 @@
 <noscript>
 	<link rel="stylesheet" href="${rootPath}/static/css/noscript.css" />
 </noscript>
+<style>
+input[type="text"]{
+	color:#fff !important;
+}
+.autocomplete{
+	position: relative;
+	display:inline-block;
+}
+.autocomplete-items{
+	position: absolute;
+	border: 1px solid #d4d4d4;
+	border-bottom:none;
+	border-top:none;
+	z-index:99;
+	top:100%;
+	left:0;
+	right:0;
+	margin-left:30px;
+}
+.autocomplete-items div{
+	padding:5px;
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.05);
+	border-bottom: 1px solid #d4d4d4;
+	color:#fff;
+}
+.autocomplete-items div:hover{
+	background-color: #e9e9e9;
+}
+</style>
 </head>
 <body class="is-preload">
 
@@ -43,6 +73,7 @@
 							<th>성명</th>
 							<th>연령</th>
 							<th>성별</th>
+							<th>병명</th>
 							<th>질병코드</th>
 						</tr>
 					</thead>
@@ -60,7 +91,8 @@
 								<td>${PATI.name}</td>
 								<td>${PATI.age}</td>
 								<td>${PATI.sex}</td>
-								<td>${PATI.dcode}</td>
+								<td>${PATI.disease}</td>
+								<td>${PATI.code}</td>
 								<td><a href="${rootPath}/emrs/detail/${PATI.seq}">상세보기</a></td>
 							</tr>
 						</c:forEach>
@@ -68,16 +100,21 @@
 				</table>
 				
 				<h2>등록하기</h2>
-				<form:form action="${rootPath}/emrs/insert">
+				<form:form action="${rootPath}/emrs/insert" autocomplete="off">
 				<div class="row gtr-uniform">
-					<div class="col-6 col-12-small">
+					<div class="col-4 col-12-small">
 						<label for="name">이름 - </label>
-						<input name="name" placeholder="이름 입력" />
+						<input name="name" type="text" placeholder="이름 입력" />
 					</div>
-					<div class="col-6 col-12-small">
+					<div class="col-4 col-12-small">
 						<label for="age">나이 - </label>
-						<input name="age" placeholder="나이" />
+						<input name="age" type="text" placeholder="나이" />
 					</div>
+					<div class="col-4 col-12-small autocomplete">
+						<label for="disease">병명 - </label>
+						<input id="myInput" type="text" name="disease" placeholder="병명 입력" />
+					</div>
+					<!--
 					<div class="col-12">
 						<select name="dcode">
 							<option value="">- 질병코드 선택 -</option>
@@ -129,6 +166,7 @@
 							<option value="J93">J93</option>
 						</select>
 					</div>
+					-->
 					<div class="col-6 col-12-small">
 						<input name="sex" id="male" type="radio" value="남성" />
 						<label for="male">남성</label>
@@ -154,12 +192,13 @@
 	<footer id="footer" class="wrapper alt">
 		<div class="inner">
 			<ul class="menu">
-				<li>witchbroom(github.com/witchbroom). All rights reserved.</li>
+				<li>&copy; 류영렬(github.com/witchbroom). All rights reserved.</li>
 			</ul>
 		</div>
 	</footer>
 
 	<!-- Scripts -->
+	<script src="${rootPath}/static/js/auto.js?001"></script>
 	<script src="${rootPath}/static/js/chart.js?ver=005"></script>
 	<script src="${rootPath}/static/js/jquery.min.js"></script>
 	<script src="${rootPath}/static/js/jquery.scrollex.min.js"></script>

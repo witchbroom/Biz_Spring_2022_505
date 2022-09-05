@@ -6,23 +6,23 @@
 <mapper namespace="com.root.emr.persistance.EmrDao">
  
 <select id="selectAll" resultType="EmrVO">
-	SELECT tbl_emrs.seq, tbl_emrs.name, tbl_emrs.age, tbl_emrs.sex, tbl_emrs.dcode, tbl_dise.dis, tbl_emrs.karte
+	SELECT tbl_emrs.seq, tbl_emrs.name, tbl_emrs.age, tbl_emrs.sex, tbl_dise.code, tbl_emrs.disease, tbl_emrs.karte
 	FROM tbl_emrs
-	LEFT JOIN tbl_dise ON tbl_emrs.dcode = tbl_dise.code
+	LEFT JOIN tbl_dise ON tbl_emrs.disease = tbl_dise.dis
 </select>
 
 <select id="findById" resultType="EmrVO">
-	SELECT tbl_emrs.seq, tbl_emrs.name, tbl_emrs.age, tbl_emrs.sex, tbl_emrs.dcode, tbl_dise.dis, tbl_emrs.karte
+	SELECT tbl_emrs.seq, tbl_emrs.name, tbl_emrs.age, tbl_emrs.sex, tbl_dise.code, tbl_emrs.disease, tbl_emrs.karte
 	FROM tbl_emrs
-	LEFT JOIN tbl_dise ON tbl_emrs.dcode = tbl_dise.code
+	LEFT JOIN tbl_dise ON tbl_emrs.disease = tbl_dise.dis
 	WHERE seq = #{seq}
 </select>
 
 <insert id="insert" parameterType="EmrVO">
 	INSERT INTO tbl_emrs(
-	name, age, sex, dcode, karte
+	name, age, sex, disease, karte
 	) VALUES(
-	#{name}, #{age}, #{sex}, #{dcode}, #{karte}
+	#{name}, #{age}, #{sex}, #{disease}, #{karte}
 	)
 </insert>
 
@@ -31,7 +31,7 @@
 	SET name = #{name},
 		age = #{age},
 		sex = #{sex},
-		dcode = #{dcode},
+		disease = #{disease},
 		karte = #{karte}
 	WHERE seq = #{seq}
 </update>
@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS tbl_emrs(
 	name	VARCHAR(10),
 	age	BIGINT,
 	sex	VARCHAR(10),
-	dcode	VARCHAR(20),
+	disease	VARCHAR(20),
 	karte	VARCHAR(255)
 )
 </select>

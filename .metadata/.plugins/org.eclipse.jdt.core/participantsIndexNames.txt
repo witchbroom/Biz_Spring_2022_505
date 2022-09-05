@@ -65,6 +65,8 @@ C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.j
 \SpMVC_004_NaverV2\src\main\java
 C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1765016175.index
 \SpMVC_020_Address2\src\main\java
+C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1769172375.index
+\SoloProject_EmrV1\src\main\java
 C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1520926596.index
 \Spring_CRUD-master\src\main\java
 C:\Users\KS50512\Documents\workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2438256289.index

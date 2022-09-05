@@ -19,7 +19,7 @@ public class EmrVO {
 	private String name;
 	private String age;
 	private String sex;
-	private String dcode;
+	private String disease;
 	private String karte;
 	
 	private String code;

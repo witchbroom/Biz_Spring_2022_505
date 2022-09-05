@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="col-12-small"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="col-12-small"/>
+			<item value="col-4"/>
+			<item value="type=&quot;text&quot;"/>
+			<item value="type=text"/>
+			<item value="type"/>
+			<item value="sidebar"/>
+			<item value="preload"/>
+			<item value="table-wrapper"/>
+			<item value="table"/>
+			<item value="code"/>
 			<item value="bind"/>
 			<item value="jdom"/>
 			<item value="jdon"/>
 			<item value="`"/>
 			<item value="input"/>
-			<item value="placeholder"/>
-			<item value="col-6"/>
-			<item value="asset"/>
-			<item value="&lt;/p&gt;"/>
-			<item value="&lt;p&gt;"/>
-			<item value="p"/>
-			<item value="td"/>
-			<item value="AuthorVO"/>
-			<item value="인증"/>
-			<item value="author"/>
 		</list>
 		<list key="replacehistory">
 			<item value="&lt;/td&gt;"/>
