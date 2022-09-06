@@ -50,7 +50,7 @@ form#logout-form{
 				<ul>
 				<sec:authorize access="isAnonymous()">
 					<li><a href="#intro">Welcome</a></li>
-					<li><a href="#two">약도</a></li>
+					<li><a href="#two">오시는길</a></li>
 					<li><a href="#three">연락하기</a></li>				
 				</sec:authorize>
 				
@@ -138,13 +138,13 @@ form#logout-form{
 				<h2>약도</h2>
 				<div class="features col-12">
 					<section>
-						<div id="map" style="width:100%;height:400px;" class="col-12">
+						<div id="map" style="width:100%;height:420px;">
 						</div>
-						<p>위치 : 광주광역시 북구 설죽로 291 광주현대병원(임시)</p>
 					</section>
+					<p style="margin-top:250px;">위치 : 광주광역시 북구 설죽로 291</p>
 				</div>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="https://map.kakao.com/link/to/우리병원,35.1856264, 126.8980128" target="_blank" class="button">길찾기</a></li>
 				</ul>
 			</div>
 		</section>
@@ -153,7 +153,7 @@ form#logout-form{
 		<section id="three" class="wrapper style1 fade-up">
 			<div class="inner">
 				<h2>Contact me</h2>
-				<p>문의사항은 상기의 연락처로 연락 바랍니다. 아래의 양식으로 메일을 보낼 수 있습니다.<br>문의시 이름과 부서, 연락처를 꼭 기입해주세요.</p>
+				<p>문의사항은 상기의 연락처로 연락 바랍니다. 아래의 양식으로 메일을 보낼 수 있습니다.<br>문의시 이름과 연락처를 꼭 기입해주세요.</p>
 				<div class="split style1">
 					<section>
 						<form method="post" action="${rootPath}/mail">
@@ -205,6 +205,8 @@ form#logout-form{
 	<form:form id="logout-form" action="${rootPath}/logout" method="POST"/>	
 
 	<!-- Scripts -->
+	
+	<!-- Modal box -->
 	<script>
     const modal = document.querySelector('.modal');
     const open = document.querySelector('.open');
@@ -225,14 +227,16 @@ form#logout-form{
     	  }
     });
 	</script>
+	
+	<!-- 로그아웃 폼 제출 -->
 	<script>
 	document.querySelector("li.logout")?.addEventListener('click',()=>{
 		document.querySelector("form#logout-form")?.submit()
 	});
 	</script>
-	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ef66483277c7fb3e1d8cb32a29db706d"></script>
-	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ef66483277c7fb3e1d8cb32a29db706d&libraries=services,clusterer"></script>
-	<script src="${rootPath}/static/js/map.js?ver=006"></script>
+	
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ef66483277c7fb3e1d8cb32a29db706d&libraries=services"></script>
+	<script src="${rootPath}/static/js/map.js?ver=013"></script>
 	<script src="${rootPath}/static/js/jquery.min.js"></script>
 	<script src="${rootPath}/static/js/jquery.scrollex.min.js"></script>
 	<script src="${rootPath}/static/js/jquery.scrolly.min.js"></script>
